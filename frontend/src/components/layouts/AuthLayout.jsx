@@ -7,6 +7,8 @@ const AuthLayout = ({ children }) => {
         <h2 className="text-lg font-medium text-blac">Expense Tracker</h2>
         {children}
       </div>
+
+      
     </div>
   );
 };
