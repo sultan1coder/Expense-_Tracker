@@ -13,6 +13,16 @@ const AuthLayout = ({ children }) => {
       <div className="w-48 h-56 rounded-[40px] border-[20px] border-furchsia-600 absolute top-[30%] -right-10 " />
       <div className="w-48 h-48 rounded-[40px] bg-violet-500 absolute -bottom-7 -left-5" />
 
+
+      <div className="grid grid-cols-1 z-20">
+        <StatsInfoCard 
+        icon={<LuTrendingUpDown />}
+        label="Track Your Income & Expenses"
+        value="430,000"
+        color="bg-primary"
+        />
+      </div>
+
       <img src={Card_2}
        className="w-64 lg:w-[90%] absolute bottom-10 shadow-lg shadow-blue-400/15 " 
        />
