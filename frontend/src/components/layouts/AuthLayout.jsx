@@ -42,7 +42,10 @@ const StatsInfoCard = ({icon, label, value, color}) => {
   {icon}
   </div>
   <div>
-    
+  <h6 className="">{label}</h6>
+  <span className="">${value}</span>
   </div>
+
+
   </div>
 }
