@@ -1,5 +1,6 @@
 import React from "react";
 import Card_2 from "../../assets/images/card2.png";
+import {LuTrendingUpDown} from "react-icons/lu";
 const AuthLayout = ({ children }) => {
   return (
     <div className="flex">
