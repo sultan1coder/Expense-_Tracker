@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import AuthLayout from '../../components/layouts/AuthLayout'
 import {useNavigate} from "react-router-dom"
+import Input from '../../components/inputs/input';
 
 const Login = () => {
 
@@ -21,7 +22,7 @@ const handleLogin = async (e) => {}
     </p>
 
     <form onSubmit={handleLogin}>
-    <input
+    <Input
     value={email}
     onChange={({target}) => setEmail(target.value)}
     label="Email Address"
