@@ -1,7 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import AuthLayout from '../../components/layouts/AuthLayout'
+import {useNavigate} from "react-router-dom"
 
 const Login = () => {
+
+const [email, setEmail] = useState("");
+const [password, setPassword] = useState("");
+const [error, setError] = useState(null);
+
+const navigate = useNavigate()
+
+
   return (
     <AuthLayout>
       <div className="lg:w-[70%] h-3/4 md:h-full flex flex-col justify-center">
