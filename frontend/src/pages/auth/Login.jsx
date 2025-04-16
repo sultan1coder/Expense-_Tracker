@@ -18,6 +18,16 @@ const navigate = useNavigate()
     <p className="text-xs text-slate-700 mt-[5px] mb-6">
       Please enter your details to log in
     </p>
+
+    <form onSubmit={handleLogin}>
+    <input
+    value={email}
+    onChange={({target}) => setEmail(target.value)}
+    label="Email Address"
+    placeholder='sultan@gmail.com'
+    type='text'
+     />
+    </form>
       </div>
     </AuthLayout>
   )
